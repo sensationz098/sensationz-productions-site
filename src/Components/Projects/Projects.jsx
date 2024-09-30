@@ -17,20 +17,11 @@ import more from "../../assets/projects-img/more.jpg";
 
 import icon_projects from "../../assets/projects-img/icon-projects.png";
 
-// projetpages
-import AddFilms from "../../Pages/ProjectsPages/AddFilms/AddFilms";
-import Docs from "../../Pages/ProjectsPages/Docs/Docs";
-import Explore from "../../Pages/ProjectsPages/Explore/Explore";
-import Movies from "../../Pages/ProjectsPages/Movies/Movies";
-import TalkShow from "../../Pages/ProjectsPages/TalkShow/TalkShow";
-import WebSeries from "../../Pages/ProjectsPages/WebSeries/WebSeries";
-import Youtube from "../../Pages/ProjectsPages/Youtube/Youtube";
-
 function Project(props) {
   const { img, to, caption } = props;
   return (
     <>
-      <div className="service">
+      <div className="service stiff-block">
         <img src={img} alt="" />
         <Link to={to} target="blank_">
           <div className="caption">
@@ -46,7 +37,7 @@ function Project(props) {
 export default function Projects() {
   return (
     <>
-      <div className="services stiff-block">
+      <div className="services">
         <Project
           img={movies}
           to={"/movies&shortfilms"}
@@ -56,7 +47,7 @@ export default function Projects() {
         <Project img={documentary} to={"/Docs"} caption={"Documentaries"} />
         <Project img={addFilms} to={"/AddFilms"} caption={"Add Films"} />
       </div>
-      <div className="services stiff-block">
+      <div className="services">
         <Project img={talkShow} to={"/TalkShow"} caption={"Talk Show"} />
         <Project img={youtube} to={"/Youtube"} caption={"youtube Videos"} />
         <Project img={more} to={"/Explore"} caption={"Explore More"} />

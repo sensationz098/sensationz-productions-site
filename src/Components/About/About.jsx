@@ -6,8 +6,8 @@ import playIcon from "../../assets/imgAssets/play-icon-orange.png";
 export default function About({ setPlayState }) {
   return (
     <>
-      <div className="about stiff-block">
-        <div className="about-left">
+      <div className="about">
+        <div className="about-left stiff-block">
           <img src={aboutImg} className="about-img" alt="" />
           <img
             src={playIcon}
@@ -18,7 +18,7 @@ export default function About({ setPlayState }) {
             }}
           />
         </div>
-        <div className="about-right">
+        <div className="about-right stiff-block">
           <h2>"Sensationz Productions"</h2>
           <p>
             Established in the year March 2007 by Harsh Anand(Director) and

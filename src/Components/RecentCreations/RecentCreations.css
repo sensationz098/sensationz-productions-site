@@ -7,6 +7,10 @@
     gap: 2rem;
 }
 
+.creation-img {
+    border-radius: 2px;
+}
+
 .RecentCreations .creation1 {
     display: flex;
     flex-direction: row;
@@ -16,12 +20,9 @@
 }
 
 .RecentCreations .creation1 img {
-    width: 30rem;
+    width: 60rem;
 }
 
-.creation-img {
-    border-radius: 2px;
-}
 
 .creation-img:hover {
     scale: 1.05;
@@ -31,10 +32,15 @@
 /* ------------------------ */
 .creation2 {
     /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .creation2 img {
-    width: 62rem;
+    width: 29rem;
 }
 
 /* ------------------------ */
@@ -48,22 +54,7 @@
 }
 
 .creation3 img {
-    width: 40rem;
-    height: 23rem;
-}
-
-.creation3-in {
-    /* border: 2px solid green; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.creation3-in img {
-    width: 20.5rem;
-    height: 10.5rem;
+    width: 60rem;
 }
 
 /* ------------------------------ */
@@ -76,7 +67,19 @@
 }
 
 .RecentCreations .creation4 img {
-    width: 30rem;
+    width: 29rem;
+}
+
+.creation5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.RecentCreations .creation5 img {
+    width: 29rem;
 }
 
 

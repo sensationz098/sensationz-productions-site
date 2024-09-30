@@ -40,18 +40,38 @@ export default function Projects() {
       <div className="services">
         <Project
           img={movies}
-          to={"/movies&shortfilms"}
+          to={"/projects/documentaries"}
           caption={"Movies/Short Films"}
         />
-        <Project img={webSeries} to={"/WebSeries"} caption={"Web Series"} />
-        <Project img={documentary} to={"/Docs"} caption={"Documentaries"} />
-        <Project img={addFilms} to={"/AddFilms"} caption={"Add Films"} />
+        <Project
+          img={webSeries}
+          to={"/projects/WebSeries"}
+          caption={"Web Series"}
+        />
+        <Project
+          img={documentary}
+          to={"/projects/Docs"}
+          caption={"Documentaries"}
+        />
+        <Project
+          img={addFilms}
+          to={"/projects/AddFilms"}
+          caption={"Add Films"}
+        />
       </div>
       <div className="services">
-        <Project img={talkShow} to={"/TalkShow"} caption={"Talk Show"} />
-        <Project img={youtube} to={"/Youtube"} caption={"youtube Videos"} />
-        <Project img={more} to={"/Explore"} caption={"Explore More"} />
-        <Project img={more} to={"/Explore"} caption={"Explore More"} />
+        <Project
+          img={talkShow}
+          to={"/projects/TalkShow"}
+          caption={"Talk Show"}
+        />
+        <Project
+          img={youtube}
+          to={"/projects/Youtube"}
+          caption={"youtube Videos"}
+        />
+        <Project img={more} to={"/projects/Explore"} caption={"Explore More"} />
+        <Project img={more} to={"/projects/Explore"} caption={"Explore More"} />
       </div>
     </>
   );

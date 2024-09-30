@@ -4,7 +4,7 @@ export default function Youtube() {
   return (
     <>
       <Nav />
-      <div>Youtube</div>;
+      <div>Youtube</div>
     </>
   );
 }

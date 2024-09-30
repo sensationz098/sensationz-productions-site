@@ -67,7 +67,7 @@ export default function Home() {
             <Directors />
           </div>
 
-          <div className="container">
+          <div className="container creations">
             <Title title={"Creations"} subtitle={"Our Recent Creations"} />
             <p className="click-view">
               (Hover & Click to view

@@ -79,6 +79,7 @@
     width: 30rem;
 }
 
+
 @media (max-width:1030px) {
     .creation-img {
         /* border: 2px solid red; */
@@ -105,6 +106,42 @@
 
     .RecentCreations .creation4 img {
         width: 20rem;
+    }
+
+}
+
+@media (max-width:680px) {
+    .creation-img {
+        /* border: 2px solid red; */
+        max-width: 20rem;
+    }
+
+    .RecentCreations .creation1 {
+        /* border: 2px solid red; */
+        flex-direction: column;
+
+    }
+
+    .creation2 {
+        flex-direction: column;
+    }
+
+    .creation3 {
+        flex-direction: column;
+    }
+
+    .creation3 img {
+        width: 20rem;
+        height: 12rem;
+    }
+
+    .creation3-in img {
+        width: 20rem;
+        height: 10rem;
+    }
+
+    .RecentCreations .creation4 {
+        flex-direction: column;
     }
 
 }

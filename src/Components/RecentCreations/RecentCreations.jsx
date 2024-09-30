@@ -15,30 +15,34 @@ export default function RecentCreations() {
   return (
     <>
       <div className="RecentCreations">
-        <div className="creation1">
+        <div className="creation1 stiff-block">
           <Link
+            className="stiff-block"
             to={"https://www.youtube.com/watch?v=u-A8YslhDV4&t=6s"}
             target="_blank"
           >
             <img src={img1} alt="" className="creation-img" />
           </Link>
           <Link
+            className="stiff-block"
             to={"https://www.youtube.com/watch?v=kzO6VlzTLWU"}
             target="_blank"
           >
             <img src={img2} alt="" className="creation-img" />
           </Link>
         </div>
-        <div className="creation2">
+        <div className="creation2 stiff-block">
           <Link
+            className="stiff-block"
             to={"https://www.youtube.com/watch?v=XLeTk10NXss"}
             target="_blank"
           >
             <img src={img3} alt="" className="creation-img" />
           </Link>
         </div>
-        <div className="creation3">
+        <div className="creation3 stiff-block">
           <Link
+            className="stiff-block"
             to={"https://www.youtube.com/watch?v=6S-VReq85Y8"}
             target="_blank"
           >
@@ -46,12 +50,14 @@ export default function RecentCreations() {
           </Link>
           <div className="creation3-in">
             <Link
+              className="stiff-block"
               to={"https://www.youtube.com/watch?v=WcHY6n-xnmE&t=2s"}
               target="_blank"
             >
               <img src={img5} alt="" className="creation-img" />
             </Link>
             <Link
+              className="stiff-block"
               to={"https://www.youtube.com/watch?v=WUkZ5P46mrY&t=2s"}
               target="_blank"
             >
@@ -59,11 +65,16 @@ export default function RecentCreations() {
             </Link>
           </div>
         </div>
-        <div className="creation4">
-          <Link to={"https://www.imdb.com/title/tt32135791/"} target="_blank">
+        <div className="creation4 stiff-block">
+          <Link
+            className="stiff-block"
+            to={"https://www.imdb.com/title/tt32135791/"}
+            target="_blank"
+          >
             <img src={img7} alt="" className="creation-img" />
           </Link>
           <Link
+            className="stiff-block"
             to={
               "https://www.youtube.com/playlist?list=PLkZUBLpxN32oiqB4CkGOXLslekI3HkYbc"
             }
@@ -73,8 +84,9 @@ export default function RecentCreations() {
           </Link>
         </div>
 
-        <button className="btn dark-btn">
+        <button className="btn dark-btn stiff-block">
           <Link
+            className="stiff-block"
             to={"https://www.youtube.com/@SensationzMediaArtsPvtLtd/videos"}
             target="_blank"
           >

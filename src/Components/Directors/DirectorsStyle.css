@@ -85,6 +85,13 @@
     text-align: center;
 }
 
+@media (max-width:850px) {
+    .shade {
+        opacity: 1;
+        padding-top: 10rem;
+    }
+}
+
 @media (max-width:435px) {
 
     .directors .title-color-box h1 {

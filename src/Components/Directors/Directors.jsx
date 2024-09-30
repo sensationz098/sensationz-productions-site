@@ -20,7 +20,7 @@ export default function Directors() {
             <img src={harsh} alt="" className="harsh" />
             <div className="shade">
               <p>
-                Mr. Harsh Anand <br />
+                Mr. harsh Anand <br />
                 (Movie Director)
               </p>
             </div>

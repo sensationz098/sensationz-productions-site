@@ -22,3 +22,10 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width:642px) {
+    .creations {
+        margin-top: 40rem;
+        /* border: 2px solid red; */
+    }
+}

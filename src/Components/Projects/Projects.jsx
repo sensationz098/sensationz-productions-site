@@ -50,7 +50,7 @@ export default function Projects() {
         />
         <Project
           img={documentary}
-          to={"/projects/Docs"}
+          to={"/projects/documentaries"}
           caption={"Documentaries"}
         />
         <Project

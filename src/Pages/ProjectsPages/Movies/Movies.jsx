@@ -7,8 +7,7 @@ export default function Movies() {
   return (
     <>
       <Nav />
-      <Hero />
-      <div>movies</div>
+      <Hero title={"Movies &  Short Films"} />
     </>
   );
 }

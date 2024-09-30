@@ -1,0 +1,18 @@
+.hero-main {
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 50vh;
+
+    background-color: rgb(193, 193, 193);
+    background-image: url("../../../assets/imgAssets/pattern1.png");
+    background-position: center center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-hero {
+    /* border: 2px solid red; */
+    font-size: 8rem;
+}

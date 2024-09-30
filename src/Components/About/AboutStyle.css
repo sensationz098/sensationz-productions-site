@@ -1,0 +1,136 @@
+.about {
+    /* border: 2px solid red; */
+    color: black;
+    /* margin: 100px auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+.about-left {
+    flex-basis: 40%;
+    position: relative;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-right {
+    /* border: 2px solid red; */
+    flex-basis: 56%;
+}
+
+.about-right h2 {
+    margin-bottom: .5rem;
+    color: var(--theme-color-bg);
+}
+
+.about-right ul {
+    /* border: 2px solid red; */
+    margin: .5rem 0 0 1.3rem;
+    gap: .2rem;
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+}
+
+.about-right ul li {
+    list-style-type: disc;
+    /* border: 2px solid red; */
+}
+
+.about-img {
+    /* border: 2px solid red; */
+    /* background: linear-gradient(rgba(192, 73, 0, 0.251), rgba(192, 73, 0, 0.251)), url("../../assets/imgAssets/about.jpg"); */
+    width: 90%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    /* height: 22rem; */
+    /* height: 50vh; */
+}
+
+.play-icon {
+    width: 80px;
+    position: absolute;
+    /* top: 40%; */
+    /* left: 40%; */
+    /* transform: translate(-50%, -50%); */
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.play-icon:hover {
+    scale: 1.1;
+}
+
+/* ------------- media query ------------- */
+
+@media(max-width:800px) {
+    .about-img {
+        /* border: 2px solid red; */
+        width: 28rem;
+        background-size: cover;
+        background-position: center;
+        /* height: 22rem; */
+        height: 40vh;
+    }
+
+    .about {
+        flex-direction: column;
+
+    }
+
+    .about-left {
+        flex-basis: 100%;
+        margin: 20px;
+        order: 2;
+        /* order will determine order of image  */
+    }
+
+    .about-right h2 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .about-right p {
+        text-align: center;
+        font-size: .8rem;
+    }
+
+    .about-right div {
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-right ul {
+        /* border: 2px solid red; */
+        margin: .5rem 0 0 1.3rem;
+        gap: .2rem;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* width: 80%; */
+    }
+
+    .about-right ul li {
+        font-size: .8rem;
+        list-style-type: disc;
+        /* border: 2px solid red; */
+    }
+
+}
+
+@media(max-width:600px) {
+    .about-img {
+        /* border: 2px solid red; */
+        width: 20rem;
+        height: 30vh;
+    }
+}

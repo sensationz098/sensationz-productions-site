@@ -1,0 +1,97 @@
+.directors {
+    margin: 6rem 0rem 14rem 0rem;
+    /* border: 2px solid red; */
+    border: 1px solid rgba(0, 0, 0, .1);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    background-image: url("../../assets/imgAssets/pattern1.png");
+    background-position: center center;
+    background-size: contain;
+}
+
+.directors .title-color-box {
+    /* border: 2px solid red; */
+    /* border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    background-image: url("../../assets/imgAssets/pattern1.png"); */
+    /* background-position: center center; */
+    /* background-repeat:; */
+    /* background-size: contain; */
+    width: 80%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding-top: 3rem;
+}
+
+.directors .title-color-box h1 {
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.directors .title-color-box p {
+    color: var(--theme-color-bg);
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.directors .director-img {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    position: absolute;
+    top: 10rem;
+}
+
+.directors .harsh,
+.directors .sucheta {
+    width: 15rem;
+    border-radius: 10px;
+}
+
+/* .directors .director-img .main-img .harsh:hover .shade, */
+.directors .shade:hover {
+    opacity: 1;
+    display: block;
+    transition: .5s;
+    padding-top: 10rem;
+}
+
+.shade {
+    background-color: rgba(0, 0, 0, 0.582);
+    height: 22.5rem;
+    width: 15rem;
+    position: absolute;
+    border-radius: 10px;
+    top: 0rem;
+    opacity: 0;
+    /* display: none; */
+    padding-top: 20rem;
+}
+
+.shade p {
+    color: aliceblue;
+    text-align: center;
+}
+
+@media (max-width:435px) {
+
+    .directors .title-color-box h1 {
+        font-size: 1.5rem;
+    }
+
+    .directors .title-color-box p {
+        font-size: 1rem;
+    }
+}

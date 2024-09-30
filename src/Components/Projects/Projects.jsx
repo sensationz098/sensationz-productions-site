@@ -40,7 +40,7 @@ export default function Projects() {
       <div className="services">
         <Project
           img={movies}
-          to={"/projects/documentaries"}
+          to={"/projects/movies"}
           caption={"Movies/Short Films"}
         />
         <Project

@@ -1,6 +1,9 @@
 .hero-main {
     /* border: 2px solid red; */
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-main img {

@@ -23,7 +23,7 @@ export default function Section2(props) {
       <div className="section2">
         <div className="section2-in">
           <h1>{heading1}</h1>
-          <p className="click-view">(Hover & Click to view )</p>
+          <p className="click-view-new">(Hover & Click to view )</p>
           <div className="videos">
             <Link
               to="https://www.youtube.com/watch?v=XLeTk10NXss&t=346s"

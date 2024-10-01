@@ -49,9 +49,12 @@
     transition: .5s;
 }
 
-.click-view {
+.click-view-new {
     margin-top: -2rem;
+    margin-bottom: 2rem;
     color: white;
+    text-align: center;
+    /* border: 2px solid red; */
 }
 
 .click-view svg {

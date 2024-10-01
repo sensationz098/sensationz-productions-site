@@ -10,20 +10,50 @@
 .section1-in {
     /* border: 2px solid red; */
     border-radius: 1rem;
-
     width: 80%;
-
     background: rgb(2, 131, 191);
     background: linear-gradient(90deg, rgba(2, 131, 191, 1) 0%, rgba(26, 26, 159, 1) 54%, rgba(0, 140, 255, 1) 92%);
-
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .section1-in .matterial {
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
 
+.section1-in .matterial1 img {
+    /* border: 2px solid red; */
+    width: 15rem;
 }
 
 .section1-in .matterial p {
     color: white;
+    /* border: 2px solid red; */
+}
+
+.matterial1 {
+    margin-bottom: 4rem;
+}
+
+.matterial2 {
+    flex-direction: row-reverse;
+}
+
+.matterial2 img {
+    width: 20rem;
+}
+
+.box1 {
+    width: 40%;
+    /* border: 2px solid red; */
+}
+
+.box1 h1 {
+    color: white;
+    margin-bottom: 1rem;
 }

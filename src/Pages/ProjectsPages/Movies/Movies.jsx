@@ -4,6 +4,7 @@ import Nav from "../../../Components/ProjectComponents/ProjectsNav/Nav";
 import Hero from "../../../Components/ProjectComponents/Hero/Hero";
 import Section1 from "../../../Components/ProjectComponents/Section1/Section1";
 import img1 from "../../../assets/projects-img/img1.jpeg";
+import img2 from "../../../assets/projects-img/img2.jpeg";
 
 export default function Movies() {
   return (
@@ -11,6 +12,10 @@ export default function Movies() {
       <Nav />
       <Hero title={"Movies &  Short Films"} />
       <Section1
+        heading1={"Movies &  Short Films"}
+        heading2={"Movies &  Short Films"}
+        img1={img1}
+        img2={img2}
         p1={`Sensationz Productions is known for its captivating storytelling
               and innovative visuals, creating a diverse range of movies and
               short films that resonate with audiences. Their projects often
@@ -31,8 +36,6 @@ export default function Movies() {
               Banwarhlal Jhol, explores themes of belonging and identity. Each
               project reflects Sensationz Productions' commitment to
               storytelling that resonates on multiple levels.`}
-        img1={img1}
-        img2={img1}
       />
     </>
   );

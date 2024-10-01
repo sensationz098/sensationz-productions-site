@@ -53,12 +53,8 @@
 @media (max-width:400px) {
     .title-hero {
         /* border: 2px solid red; */
-        padding: 0rem 1rem;
         font-size: 2rem;
         border-radius: .5rem;
     }
 
-    .hero-main {
-        height: 20vh;
-    }
 }

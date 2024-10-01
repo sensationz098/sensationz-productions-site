@@ -71,7 +71,6 @@
         width: 100%;
     }
 
-    .box1 h1 {}
 }
 
 @media (max-width:1000px) {
@@ -93,7 +92,6 @@
     .section1-in {
         padding: 2rem 1rem;
     }
-
 
     .section1-in .matterial p {
         color: white;

@@ -38,6 +38,7 @@
 }
 
 .videos img {
+    /* border: 2px solid red; */
     width: 350px;
     height: 200px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -57,12 +58,8 @@
     /* border: 2px solid red; */
 }
 
-.click-view svg {
-    /* border: 2px solid red; */
-    color: white;
-}
-
 .btn-bar {
+    /* border: 2px solid red; */
     margin-top: 4rem;
     text-align: center;
 }

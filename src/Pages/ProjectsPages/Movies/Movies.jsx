@@ -2,6 +2,9 @@ import React from "react";
 import "./Movies.css";
 import Nav from "../../../Components/ProjectComponents/ProjectsNav/Nav";
 import Hero from "../../../Components/ProjectComponents/Hero/Hero";
+
+import banner from "../../../assets/project-banners/movies.png";
+
 import Section1 from "../../../Components/ProjectComponents/Section1/Section1";
 import img1 from "../../../assets/projects-img/img1.jpeg";
 import img2 from "../../../assets/projects-img/img2.jpeg";
@@ -18,7 +21,7 @@ export default function Movies() {
   return (
     <>
       <Nav />
-      <Hero title={"Movies &  Short Films"} />
+      <Hero bannerImage={banner} />
       <Section1
         heading1={"Movies &  Short Films"}
         heading2={"Movies &  Short Films"}

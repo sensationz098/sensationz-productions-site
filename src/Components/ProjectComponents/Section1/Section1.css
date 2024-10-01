@@ -1,5 +1,5 @@
 .section1 {
-    margin-top: 4rem;
+    margin-top: 2rem;
     /* border: 2px solid red; */
     display: flex;
     align-items: center;
@@ -13,7 +13,7 @@
     width: 80%;
     background: rgb(2, 131, 191);
     background: linear-gradient(90deg, rgba(2, 131, 191, 1) 0%, rgba(26, 26, 159, 1) 54%, rgba(0, 140, 255, 1) 92%);
-    padding: 2rem;
+    padding: 6rem 2rem;
     display: flex;
     flex-direction: column;
 }
@@ -29,6 +29,7 @@
 .section1-in .matterial1 img {
     /* border: 2px solid red; */
     width: 15rem;
+    border-radius: .5rem;
 }
 
 .section1-in .matterial p {
@@ -46,6 +47,7 @@
 
 .matterial2 img {
     width: 20rem;
+    border-radius: .5rem;
 }
 
 .box1 {
@@ -56,4 +58,92 @@
 .box1 h1 {
     color: white;
     margin-bottom: 1rem;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+@media (max-width:1300px) {
+    .box1 {
+        width: 60%;
+        /* border: 2px solid red; */
+    }
+
+    .section1-in .matterial p {
+        width: 100%;
+    }
+
+    .box1 h1 {}
+}
+
+@media (max-width:1000px) {
+    .box1 {
+        width: 60%;
+    }
+
+    .box1 h1 {
+        font-size: 1.8rem;
+    }
+
+    .section1-in .matterial p {
+        font-size: .8rem;
+    }
+
+}
+
+@media (max-width:850px) {
+    .section1-in {
+        padding: 2rem 1rem;
+    }
+
+
+    .section1-in .matterial p {
+        color: white;
+        /* border: 2px solid red; */
+        text-align: center;
+    }
+
+    .matterial1 {
+        /* border: 2px solid red; */
+        margin-bottom: 4rem;
+        flex-direction: column-reverse;
+    }
+
+    .matterial2 {
+        flex-direction: column-reverse;
+    }
+
+    .section1-in .matterial1 img {
+        width: 12rem;
+    }
+
+    .matterial2 img {
+        width: 15rem;
+        border-radius: .5rem;
+    }
+
+    .box1 {
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .box1 h1 {
+        color: white;
+        margin-bottom: 1rem;
+        /* border: 2px solid red; */
+        text-align: center;
+    }
+}
+
+@media (max-width:850px) {
+    .section1-in {
+        width: 90%;
+    }
+
+    .section1-in .matterial p {
+        font-size: 11px;
+    }
+
+    .box1 h1 {
+        font-size: 1.5rem;
+    }
 }

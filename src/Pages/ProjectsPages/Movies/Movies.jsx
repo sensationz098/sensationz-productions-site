@@ -5,6 +5,14 @@ import Hero from "../../../Components/ProjectComponents/Hero/Hero";
 import Section1 from "../../../Components/ProjectComponents/Section1/Section1";
 import img1 from "../../../assets/projects-img/img1.jpeg";
 import img2 from "../../../assets/projects-img/img2.jpeg";
+import Section2 from "../../../Components/ProjectComponents/Section2/Section2";
+
+import Img1 from "../../../assets/posters/movies/movie1.jpg";
+import Img2 from "../../../assets/posters/ShortFilms/5.png";
+import Img3 from "../../../assets/posters/ShortFilms/12.jpg";
+import Img4 from "../../../assets/posters/ShortFilms/7.png";
+import Img5 from "../../../assets/posters/ShortFilms/8.jpg";
+import Img6 from "../../../assets/posters/ShortFilms/9.jpg";
 
 export default function Movies() {
   return (
@@ -36,6 +44,15 @@ export default function Movies() {
               Banwarhlal Jhol, explores themes of belonging and identity. Each
               project reflects Sensationz Productions' commitment to
               storytelling that resonates on multiple levels.`}
+      />
+      <Section2
+        heading1={"Some of Our Best Movies & Shortfilms"}
+        Img1={Img1}
+        Img2={Img2}
+        Img3={Img3}
+        Img4={Img4}
+        Img5={Img5}
+        Img6={Img6}
       />
     </>
   );

@@ -105,6 +105,12 @@ li {
     justify-content: center;
 }
 
+.click-view svg {
+    /* border: 2px solid red; */
+    color: white;
+    font-size: 1.2rem;
+}
+
 /* ------------- media query ------------- */
 
 @media (max-width:1200px) {

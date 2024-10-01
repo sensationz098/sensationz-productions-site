@@ -1,6 +1,7 @@
 import React from "react";
 import "./Section2.css";
 import { Link } from "react-router-dom";
+import { PiMouseLeftClickFill } from "react-icons/pi";
 
 export default function Section2(props) {
   const {
@@ -22,6 +23,7 @@ export default function Section2(props) {
       <div className="section2">
         <div className="section2-in">
           <h1>{heading1}</h1>
+          <p className="click-view">(Hover & Click to view )</p>
           <div className="videos">
             <Link
               to="https://www.youtube.com/watch?v=XLeTk10NXss&t=346s"
@@ -59,6 +61,9 @@ export default function Section2(props) {
             >
               <img src={Img5} alt="" />
             </Link>
+          </div>
+          <div className="btn-bar">
+            <button className="btn dark-btn">View More</button>
           </div>
         </div>
       </div>

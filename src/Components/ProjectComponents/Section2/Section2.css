@@ -1,5 +1,6 @@
 .section2 {
     margin-top: 2rem;
+    margin-bottom: 6rem;
     /* border: 2px solid red; */
     display: flex;
     align-items: center;
@@ -48,8 +49,36 @@
     transition: .5s;
 }
 
-@media (max-width:400px) {
+.click-view {
+    margin-top: -2rem;
+    color: white;
+}
+
+.click-view svg {
+    /* border: 2px solid red; */
+    color: white;
+}
+
+.btn-bar {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+@media (max-width:850px) {
     .section2-in {
         width: 90%;
+    }
+}
+
+@media (max-width:500px) {
+    .videos img {
+        width: 280px;
+        height: 150px;
+    }
+}
+
+@media (max-width:400px) {
+    .section2-in h1 {
+        font-size: 1.5rem;
     }
 }

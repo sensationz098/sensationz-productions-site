@@ -1,7 +1,6 @@
 import React from "react";
 import "./Section2.css";
 import { Link } from "react-router-dom";
-import { PiMouseLeftClickFill } from "react-icons/pi";
 
 export default function Section2(props) {
   const {
@@ -21,7 +20,7 @@ export default function Section2(props) {
   return (
     <>
       <div className="section2">
-        <div className="section2-in">
+        <div className="section2-in stiff-block">
           <h1>{heading1}</h1>
           <p className="click-view-new">(Hover & Click to view )</p>
           <div className="videos">
@@ -29,41 +28,46 @@ export default function Section2(props) {
               to="https://www.youtube.com/watch?v=XLeTk10NXss&t=346s"
               target="_blank"
             >
-              <img src={Img1} alt="" />
+              <img src={Img1} alt="" className="stiff-block" />
             </Link>
             <Link
               to="https://www.youtube.com/watch?v=u-A8YslhDV4&t=1s"
               target="_blank"
             >
-              <img src={Img4} alt="" />
+              <img src={Img4} alt="" className="stiff-block" />
             </Link>
             <Link
               to="https://www.youtube.com/watch?v=kzO6VlzTLWU&t=6s"
               target="_blank"
             >
-              <img src={Img6} alt="" />
+              <img src={Img6} alt="" className="stiff-block" />
             </Link>
             <Link
               to="https://www.youtube.com/watch?v=YG4eGPvXadk&t=1s"
               target="_blank"
             >
-              <img src={Img2} alt="" />
+              <img src={Img2} alt="" className="stiff-block" />
             </Link>
             <Link
               to="https://www.youtube.com/watch?v=zDGm_hu6nkY"
               target="_blank"
             >
-              <img src={Img3} alt="" />
+              <img src={Img3} alt="" className="stiff-block" />
             </Link>
             <Link
               to="https://www.youtube.com/watch?v=IliQhEe89Qc"
               target="_blank"
             >
-              <img src={Img5} alt="" />
+              <img src={Img5} alt="" className="stiff-block" />
             </Link>
           </div>
           <div className="btn-bar">
-            <button className="btn dark-btn">View More</button>
+            <Link
+              to="https://www.youtube.com/@SensationzMediaArtsPvtLtd/featured"
+              target="_blank"
+            >
+              <button className="btn dark-btn stiff-blocks">View More</button>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutStyle.css";
 import aboutImg from "../../assets/imgAssets/about.jpeg";
-import playIcon from "../../assets/imgAssets/play-icon-orange.png";
+import playIcon from "../../assets/imgAssets/play-icon-balck.png";
 
 export default function About({ setPlayState }) {
   return (

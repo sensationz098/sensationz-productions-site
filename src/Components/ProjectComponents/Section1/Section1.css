@@ -1,0 +1,29 @@
+.section1 {
+    margin-top: 4rem;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.section1-in {
+    /* border: 2px solid red; */
+    border-radius: 1rem;
+
+    width: 80%;
+
+    background: rgb(2, 131, 191);
+    background: linear-gradient(90deg, rgba(2, 131, 191, 1) 0%, rgba(26, 26, 159, 1) 54%, rgba(0, 140, 255, 1) 92%);
+
+    padding: 2rem;
+}
+
+.section1-in .matterial {
+    border: 2px solid red;
+
+}
+
+.section1-in .matterial p {
+    color: white;
+}

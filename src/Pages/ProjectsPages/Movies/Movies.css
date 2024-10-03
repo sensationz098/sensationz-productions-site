@@ -5,3 +5,17 @@
     justify-content: center;
     margin-top: 2rem;
 }
+
+.section2-movies .videos img {
+    /* border: 2px solid red; */
+    /* height: 15rem;
+    width: 32rem; */
+}
+
+@media (max-width:600px) {
+    .section2-movies .videos img {
+        /* border: 2px solid red; */
+        height: 10rem;
+        width: 18rem;
+    }
+}

@@ -9,6 +9,7 @@ import Movies from "./Pages/ProjectsPages/Movies/Movies";
 import TalkShow from "./Pages/ProjectsPages/TalkShow/TalkShow";
 import WebSeries from "./Pages/ProjectsPages/WebSeries/WebSeries";
 import Youtube from "./Pages/ProjectsPages/Youtube/Youtube";
+import MusicVideos from "./Pages/ProjectsPages/MusicVideos/MusicVideos";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -44,6 +45,11 @@ export default function App() {
             element={<TalkShow />}
           />
           <Route path="/projects/youtube" exact={true} element={<Youtube />} />
+          <Route
+            path="/projects/musicvideos"
+            exact={true}
+            element={<MusicVideos />}
+          />
           <Route path="/projects/explore" exact={true} element={<Explore />} />
           <Route
             path="/projects/PrivacyPolicy"

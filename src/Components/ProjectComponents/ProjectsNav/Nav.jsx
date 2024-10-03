@@ -46,9 +46,12 @@ export default function ServicesNav() {
             <Link to={"/projects/youtube"}>
               <li>Youtube</li>
             </Link>
-            <Link to={"/projects/Explore"}>
-              <li>Explore</li>
+            <Link to={"/projects/musicvideos"}>
+              <li>Music Videos</li>
             </Link>
+            {/* <Link to={"/projects/Explore"}>
+              <li>Explore</li>
+            </Link> */}
           </ul>
         </div>
       </div>

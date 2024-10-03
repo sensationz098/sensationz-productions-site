@@ -49,13 +49,11 @@ export default function Youtube() {
               storytelling that resonates on multiple levels.`}
       />
       <Section2
-        heading1={"Some of Our Best Movies & Shortfilms"}
+        heading1={"Some of Our Best Music"}
         Img1={Img1}
         Img2={Img2}
-        Img3={Img3}
-        Img4={Img4}
-        Img5={Img5}
-        Img6={Img6}
+        Img4={Img3}
+        Img5={Img4}
       />
     </>
   );

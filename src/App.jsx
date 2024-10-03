@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Footer from "./Components/Footer/Footer";
 import Home from "./Pages/Home/Home";
 import Policy from "./Pages/Policy/Policy";
-import AddFilms from "./Pages/ProjectsPages/AddFilms/AddFilms";
+import AdsFilms from "./Pages/ProjectsPages/AddFilms/AdsFilms";
 import Docs from "./Pages/ProjectsPages/Docs/Docs";
 import Explore from "./Pages/ProjectsPages/Explore/Explore";
 import Movies from "./Pages/ProjectsPages/Movies/Movies";
@@ -32,7 +32,7 @@ export default function App() {
           <Route
             path="/projects/addfilms"
             exact={true}
-            element={<AddFilms />}
+            element={<AdsFilms />}
           />
           <Route
             path="/projects/movies-shortfilms"

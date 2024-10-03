@@ -1,19 +1,19 @@
 import React from "react";
 import "./Movies.css";
+import { Link } from "react-router-dom";
 import Nav from "../../../Components/ProjectComponents/ProjectsNav/Nav";
 import Hero from "../../../Components/ProjectComponents/Hero/Hero";
-
 import banner from "../../../assets/project-banners/movies.png";
 
 import Section1 from "../../../Components/ProjectComponents/Section1/Section1";
 import img1 from "../../../assets/projects-img/img1.jpeg";
 import img2 from "../../../assets/projects-img/img2.jpeg";
-import Section2 from "../../../Components/ProjectComponents/Section2/Section2";
+// import Section2 from "../../../Components/ProjectComponents/Section2/Section2";
 
 import Img1 from "../../../assets/posters/movies/movie1.jpg";
-import Img2 from "../../../assets/posters/ShortFilms/5.png";
+import Img2 from "../../../assets/posters/ShortFilms/7.png";
 import Img3 from "../../../assets/posters/ShortFilms/12.jpg";
-import Img4 from "../../../assets/posters/ShortFilms/7.png";
+import Img4 from "../../../assets/posters/ShortFilms/11.jpg";
 import Img5 from "../../../assets/posters/ShortFilms/8.jpg";
 import Img6 from "../../../assets/posters/ShortFilms/9.jpg";
 
@@ -48,15 +48,81 @@ export default function Movies() {
               project reflects Sensationz Productions' commitment to
               storytelling that resonates on multiple levels.`}
       />
-      <Section2
+      {/* <Section2
         heading1={"Some of Our Best Movies & Shortfilms"}
         Img1={Img1}
+        to1={"https://www.youtube.com/watch?v=XLeTk10NXss"}
         Img2={Img2}
+        to2={"https://www.youtube.com/watch?v=u-A8YslhDV4&t=4s"}
         Img3={Img3}
+        to3={"https://www.youtube.com/watch?v=zDGm_hu6nkY&t=1s"}
         Img4={Img4}
+        to4={"https://www.youtube.com/watch?v=lEzrfgouXqM"}
         Img5={Img5}
+        to5={"https://www.youtube.com/watch?v=YLm2nSY9qHA&t=613s"}
         Img6={Img6}
-      />
+        to6={"https://www.youtube.com/watch?v=kzO6VlzTLWU"}
+      /> */}
+
+      <div className="section2-movies">
+        <div className="section2-in stiff-block">
+          <h1>{"Some of Our Best Ads Films"}</h1>
+          <p className="click-view-new">(Hover & Click to view )</p>
+
+          <div className="videos">
+            <div className="videos-layer1">
+              <Link
+                to={"https://www.youtube.com/watch?v=XLeTk10NXss"}
+                target="_blank"
+              >
+                <img src={Img1} alt="" className="stiff-block" />
+              </Link>
+              <Link
+                to={"https://www.youtube.com/watch?v=u-A8YslhDV4&t=4s"}
+                target="_blank"
+              >
+                <img src={Img2} alt="" className="stiff-block" />
+              </Link>
+              <Link
+                to={"https://www.youtube.com/watch?v=zDGm_hu6nkY&t=1s"}
+                target="_blank"
+              >
+                <img src={Img3} alt="" className="stiff-block" />
+              </Link>
+            </div>
+
+            <div className="videos-layer2">
+              <Link
+                to={"https://www.youtube.com/watch?v=lEzrfgouXqM"}
+                target="_blank"
+              >
+                <img src={Img4} alt="" className="stiff-block" />
+              </Link>
+              <Link
+                to={"https://www.youtube.com/watch?v=YLm2nSY9qHA&t=613s"}
+                target="_blank"
+              >
+                <img src={Img5} alt="" className="stiff-block" />
+              </Link>
+              <Link
+                to={"https://www.youtube.com/watch?v=kzO6VlzTLWU"}
+                target="_blank"
+              >
+                <img src={Img6} alt="" className="stiff-block" />
+              </Link>
+            </div>
+          </div>
+
+          <div className="btn-bar">
+            <Link
+              to="https://www.youtube.com/@SensationzMediaArtsPvtLtd/featured"
+              target="_blank"
+            >
+              <button className="btn dark-btn stiff-blocks">View More</button>
+            </Link>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

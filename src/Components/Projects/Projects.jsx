@@ -10,7 +10,7 @@ import "./ProjectsStyle.css";
 import movies from "../../assets/projects-img/movies.jpg";
 import webSeries from "../../assets/projects-img/webSeries.jpg";
 import documentary from "../../assets/projects-img/documentary.jpg";
-import addFilms from "../../assets/projects-img/addFilms.jpg";
+import adsFilms from "../../assets/projects-img/adsFilms.jpg";
 import talkShow from "../../assets/projects-img/talkShow.jpg";
 import youtube from "../../assets/projects-img/youtube.jpg";
 import more from "../../assets/projects-img/more.jpg";
@@ -54,9 +54,9 @@ export default function Projects() {
           caption={"Documentaries"}
         />
         <Project
-          img={addFilms}
-          to={"/projects/AddFilms"}
-          caption={"Add Films"}
+          img={adsFilms}
+          to={"/projects/AdsFilms"}
+          caption={"Ads Films"}
         />
       </div>
       <div className="services">

@@ -7,15 +7,13 @@ import Hero from "../../../Components/ProjectComponents/Hero/Hero";
 import banner from "../../../assets/project-banners/musicVideos.png";
 
 import Section1 from "../../../Components/ProjectComponents/Section1/Section1";
-import img1 from "../../../assets/projects-img/img1.jpeg";
-import img2 from "../../../assets/projects-img/img2.jpeg";
+import img1 from "../../../assets/projects-img/music1.jpeg";
+import img2 from "../../../assets/projects-img/music2.jpeg";
 
-import Img1 from "../../../assets/posters/movies/movie1.jpg";
-import Img2 from "../../../assets/posters/ShortFilms/5.png";
-import Img3 from "../../../assets/posters/ShortFilms/12.jpg";
-import Img4 from "../../../assets/posters/ShortFilms/7.png";
-import Img5 from "../../../assets/posters/ShortFilms/8.jpg";
-import Img6 from "../../../assets/posters/ShortFilms/9.jpg";
+import Img1 from "../../../assets/posters/Music/music1.jpg";
+import Img2 from "../../../assets/posters/Music/music2.jpg";
+import Img3 from "../../../assets/posters/Music/music3.jpg";
+import Img4 from "../../../assets/posters/Music/music4.jpg";
 
 export default function Youtube() {
   return (
@@ -23,8 +21,8 @@ export default function Youtube() {
       <Nav />
       <Hero bannerImage={banner} />
       <Section1
-        heading1={"Movies &  Short Films"}
-        heading2={"Movies &  Short Films"}
+        heading1={"Music Videos"}
+        heading2={"Music Videos"}
         img1={img1}
         img2={img2}
         p1={`Sensationz Productions is known for its captivating storytelling
@@ -48,6 +46,52 @@ export default function Youtube() {
               project reflects Sensationz Productions' commitment to
               storytelling that resonates on multiple levels.`}
       />
+      <div className="section2-musicVideo">
+        <div className="section2-in stiff-block">
+          <h1>{"Some of Our Best Music Videos"}</h1>
+          <p className="click-view-new">(Hover & Click to view )</p>
+
+          <div className="videos">
+            <div className="videos-layer1">
+              <Link
+                to={"https://www.youtube.com/watch?v=WcHY6n-xnmE&t=8s"}
+                target="_blank"
+              >
+                <img src={Img1} alt="" className="stiff-block" />
+              </Link>
+              <Link
+                to={"https://www.youtube.com/watch?v=WUkZ5P46mrY&t=2s"}
+                target="_blank"
+              >
+                <img src={Img2} alt="" className="stiff-block" />
+              </Link>
+            </div>
+            <div className="videos-layer2">
+              <Link
+                to={"https://www.youtube.com/watch?v=DZo01JJ7Ha4"}
+                target="_blank"
+              >
+                <img src={Img3} alt="" className="stiff-block" />
+              </Link>
+              <Link
+                to={"https://www.youtube.com/watch?v=hYqVodIo3hI"}
+                target="_blank"
+              >
+                <img src={Img4} alt="" className="stiff-block" />
+              </Link>
+            </div>
+          </div>
+
+          <div className="btn-bar">
+            <Link
+              to="https://www.youtube.com/@SensationzMediaArtsPvtLtd/featured"
+              target="_blank"
+            >
+              <button className="btn dark-btn stiff-blocks">View More</button>
+            </Link>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

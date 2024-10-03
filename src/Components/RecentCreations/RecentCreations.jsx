@@ -6,8 +6,8 @@ import img1 from "../../assets/posters/ShortFilms/7.png";
 import img2 from "../../assets/posters/ShortFilms/9.jpg";
 import img3 from "../../assets/posters/movies/movie1.jpg";
 import img4 from "../../assets/posters/ShortFilms/2.jpg";
-import img5 from "../../assets/posters/MusicVideo/1.png";
-import img6 from "../../assets/posters/MusicVideo/2.png";
+import img5 from "../../assets/posters/Music/music1.jpg";
+import img6 from "../../assets/posters/Music/music2.jpg";
 import img7 from "../../assets/posters/WebSeries/web1.jpg";
 import img8 from "../../assets/posters/WebSeries/web2.jpg";
 

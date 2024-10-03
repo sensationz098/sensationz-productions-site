@@ -40,7 +40,7 @@ export default function App() {
             element={<Movies />}
           />
           <Route
-            path="/projects/talkshow"
+            path="/projects/Interviews-talkshows"
             exact={true}
             element={<TalkShow />}
           />

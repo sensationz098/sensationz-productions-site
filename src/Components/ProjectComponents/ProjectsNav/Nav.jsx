@@ -40,12 +40,12 @@ export default function ServicesNav() {
             <Link to={"/projects/addfilms"}>
               <li>Add Films</li>
             </Link>
-            <Link to={"/projects/talkshow"}>
-              <li>Talk Show</li>
+            <Link to={"/projects/Interviews-talkshows"}>
+              <li>Interviews & Talk Shows</li>
             </Link>
-            <Link to={"/projects/youtube"}>
+            {/* <Link to={"/projects/youtube"}>
               <li>Youtube</li>
-            </Link>
+            </Link> */}
             <Link to={"/projects/musicvideos"}>
               <li>Music Videos</li>
             </Link>

@@ -1,0 +1,29 @@
+.section2-docs {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.section2-docs .videos img {
+    /* border: 2px solid red; */
+    height: 14rem;
+    width: 27rem;
+}
+
+@media (max-width:600px) {
+    .section2-docs .videos img {
+        /* border: 2px solid red; */
+        height: 11rem;
+        width: 21rem;
+    }
+}
+
+@media (max-width:400px) {
+    .section2-docs .videos img {
+        /* border: 2px solid red; */
+        height: 8rem;
+        width: 16rem;
+    }
+}

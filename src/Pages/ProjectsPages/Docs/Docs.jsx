@@ -8,14 +8,12 @@ import banner from "../../../assets/project-banners/docs.png";
 
 import Section1 from "../../../Components/ProjectComponents/Section1/Section1";
 import img1 from "../../../assets/projects-img/img1.jpeg";
-import img2 from "../../../assets/projects-img/img2.jpeg";
+import img2 from "../../../assets/projects-img/docs.jpeg";
 
-import Img1 from "../../../assets/posters/movies/movie1.jpg";
-import Img2 from "../../../assets/posters/ShortFilms/5.png";
-import Img3 from "../../../assets/posters/ShortFilms/12.jpg";
-import Img4 from "../../../assets/posters/ShortFilms/7.png";
-import Img5 from "../../../assets/posters/ShortFilms/8.jpg";
-import Img6 from "../../../assets/posters/ShortFilms/9.jpg";
+import Img1 from "../../../assets/posters/docs/docs1.png";
+import Img2 from "../../../assets/posters/docs/docs2.png";
+import Img3 from "../../../assets/posters/docs/docs3.png";
+import Img4 from "../../../assets/posters/docs/docs4.png";
 
 export default function Docs() {
   return (
@@ -23,31 +21,64 @@ export default function Docs() {
       <Nav />
       <Hero bannerImage={banner} />
       <Section1
-        heading1={"Movies &  Short Films"}
-        heading2={"Movies &  Short Films"}
+        heading1={"Documentaries"}
+        heading2={"Documentaries"}
         img1={img1}
         img2={img2}
-        p1={`Sensationz Productions is known for its captivating storytelling
-              and innovative visuals, creating a diverse range of movies and
-              short films that resonate with audiences. Their projects often
-              explore deep themes, blending drama and emotion with stunning
-              cinematography. Whether it's a thought-provoking short or a
-              feature film that challenges conventions, Sensationz Productions
-              consistently delivers compelling narratives that leave a lasting
-              impression. Their commitment to quality and creativity makes them
-              a standout in the indie film scene.`}
-        p2={`Sensationz Productions has made a mark with its engaging films and
-              impactful short stories. Their feature film, "Love and Rajneeti,"
-              starring Ravi Kishan, intricately weaves romance and political
-              intrigue, captivating audiences with its dynamic narrative. Among
-              their notable short films, "Avaidh," featuring Hiten Tejwani,
-              delves into complex human emotions, while "Deserved: Story of a
-              Cop," starring Manoj Bakshi, offers a gripping look at justice and
-              morality. Additionally, "Ab Yahi Mera Ghar Hai," featuring
-              Banwarhlal Jhol, explores themes of belonging and identity. Each
-              project reflects Sensationz Productions' commitment to
-              storytelling that resonates on multiple levels.`}
+        p1={`Sensations Productions is a documentary production company dedicated to creating compelling and immersive storytelling. Their work often delves deep into real-life events, social issues, and human experiences, capturing raw emotions and unique perspectives. Through high-quality cinematography and thoughtful narrative structures, Sensations Productions aims to provoke thought, inspire change, and connect audiences to diverse stories from around the world. Their documentaries blend artistry with authenticity, ensuring that each project resonates on both an intellectual and emotional level.`}
+        p2={`Sensations Productions collaborates with the NGO Chinmay Organization for Rural Development (CORD) to produce impactful documentaries that highlight the organization’s efforts in rural development. Through films like **CORD's Disability Movie** and **CORD's Balvihar**, Sensations Productions captures the essence of CORD’s initiatives, focusing on empowering individuals with disabilities and promoting educational programs for children. The documentaries are crafted to raise awareness, inspire action, and showcase the transformative work being done in rural communities.`}
       />
+
+      <div className="section2-docs">
+        <div className="section2-in stiff-block">
+          <h1>{"Some of Our Best Documentaries"}</h1>
+          <p className="click-view-new">(Hover & Click to view )</p>
+
+          <div className="videos">
+            <div className="videos-layer1">
+              <Link
+                to={"https://www.imdb.com/title/tt32135791/"}
+                target="_blank"
+              >
+                <img src={Img1} alt="" className="stiff-block" />
+              </Link>
+              <Link
+                to={
+                  "https://www.youtube.com/playlist?list=PLkZUBLpxN32oiqB4CkGOXLslekI3HkYbc"
+                }
+                target="_blank"
+              >
+                <img src={Img2} alt="" className="stiff-block" />
+              </Link>
+            </div>
+            <div className="videos-layer2">
+              <Link
+                to={"https://www.imdb.com/title/tt32135791/"}
+                target="_blank"
+              >
+                <img src={Img3} alt="" className="stiff-block" />
+              </Link>
+              <Link
+                to={
+                  "https://www.youtube.com/playlist?list=PLkZUBLpxN32oiqB4CkGOXLslekI3HkYbc"
+                }
+                target="_blank"
+              >
+                <img src={Img4} alt="" className="stiff-block" />
+              </Link>
+            </div>
+          </div>
+
+          <div className="btn-bar">
+            <Link
+              to="https://www.youtube.com/@SensationzMediaArtsPvtLtd/featured"
+              target="_blank"
+            >
+              <button className="btn dark-btn stiff-blocks">View More</button>
+            </Link>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

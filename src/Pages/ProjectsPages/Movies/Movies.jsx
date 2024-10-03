@@ -8,7 +8,6 @@ import banner from "../../../assets/project-banners/movies.png";
 import Section1 from "../../../Components/ProjectComponents/Section1/Section1";
 import img1 from "../../../assets/projects-img/img1.jpeg";
 import img2 from "../../../assets/projects-img/img2.jpeg";
-// import Section2 from "../../../Components/ProjectComponents/Section2/Section2";
 
 import Img1 from "../../../assets/posters/movies/movie1.jpg";
 import Img2 from "../../../assets/posters/ShortFilms/7.png";
@@ -48,21 +47,6 @@ export default function Movies() {
               project reflects Sensationz Productions' commitment to
               storytelling that resonates on multiple levels.`}
       />
-      {/* <Section2
-        heading1={"Some of Our Best Movies & Shortfilms"}
-        Img1={Img1}
-        to1={"https://www.youtube.com/watch?v=XLeTk10NXss"}
-        Img2={Img2}
-        to2={"https://www.youtube.com/watch?v=u-A8YslhDV4&t=4s"}
-        Img3={Img3}
-        to3={"https://www.youtube.com/watch?v=zDGm_hu6nkY&t=1s"}
-        Img4={Img4}
-        to4={"https://www.youtube.com/watch?v=lEzrfgouXqM"}
-        Img5={Img5}
-        to5={"https://www.youtube.com/watch?v=YLm2nSY9qHA&t=613s"}
-        Img6={Img6}
-        to6={"https://www.youtube.com/watch?v=kzO6VlzTLWU"}
-      /> */}
 
       <div className="section2-movies">
         <div className="section2-in stiff-block">

@@ -7,8 +7,8 @@ import Hero from "../../../Components/ProjectComponents/Hero/Hero";
 import banner from "../../../assets/project-banners/webSeries.png";
 
 import Section1 from "../../../Components/ProjectComponents/Section1/Section1";
-import img1 from "../../../assets/projects-img/img1.jpeg";
-import img2 from "../../../assets/projects-img/img2.jpeg";
+import img1 from "../../../assets/projects-img/web1.jpeg";
+import img2 from "../../../assets/projects-img/web2.jpeg";
 
 import Img1 from "../../../assets/posters/WebSeries/web1.jpg";
 import Img2 from "../../../assets/posters/WebSeries/web2.jpg";
@@ -23,8 +23,8 @@ export default function WebSeries() {
         heading2={"Web Series"}
         img1={img1}
         img2={img2}
-        p1={``}
-        p2={``}
+        p1={`Sensations Productions is a creative media company specializing in producing engaging web series. Known for its innovative storytelling and high-quality content, the company creates shows that captivate diverse audiences across genres, from drama and comedy to thrillers and documentaries. Sensations Productions focuses on delivering fresh perspectives and relatable narratives, leveraging digital platforms to connect with viewers worldwide. With a strong emphasis on creative collaboration and cutting-edge production techniques, it continues to push the boundaries of web series entertainment.`}
+        p2={`Sensations Productions is a dynamic content creation company known for producing popular web series like *Pre-Wedding Honeymoon* on MX Player and *Love Lust Loyalty (LLL)*. With a focus on modern relationships, emotions, and relatable experiences, Sensations Productions creates compelling narratives that resonate with a wide audience. Their web series often explore themes of love, desire, and trust, offering viewers an engaging mix of drama, romance, and realism. By leveraging digital platforms like MX Player, the company reaches diverse viewers and continues to establish itself as a key player in the web series space.`}
       />
       <div className="section2-webseries">
         <div className="section2-in stiff-block">

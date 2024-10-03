@@ -27,7 +27,7 @@ export default function Footer() {
         </div>
         {/* <hr /> */}
         <div className="foot2">
-          <p>© 2024 Sensationz Productions | All rights reserved </p>
+          <p>©2024 Sensationz Productions | All rights reserved </p>
         </div>
       </div>
     </>

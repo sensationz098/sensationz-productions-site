@@ -6,8 +6,8 @@ import Hero from "../../../Components/ProjectComponents/Hero/Hero";
 import banner from "../../../assets/project-banners/addFilms.png";
 
 import Section1 from "../../../Components/ProjectComponents/Section1/Section1";
-import img1 from "../../../assets/projects-img/img1.jpeg";
-import img2 from "../../../assets/projects-img/img2.jpeg";
+import img1 from "../../../assets/projects-img/adds1.jpeg";
+import img2 from "../../../assets/projects-img/adds2.jpeg";
 import Section2 from "../../../Components/ProjectComponents/Section2/Section2";
 
 import Img1 from "../../../assets/posters/movies/movie1.jpg";

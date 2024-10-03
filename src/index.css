@@ -157,3 +157,93 @@ li {
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
 }
+
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+.section2 {
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.section2-in {
+    /* border: 2px solid red; */
+    border-radius: 1rem;
+    width: 80%;
+    background: rgb(2, 131, 191);
+    background: linear-gradient(rgba(2, 131, 191, 1), rgba(26, 26, 159, 1));
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.section2-in h1 {
+    /* border: 2px solid red; */
+    text-align: center;
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.videos {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.videos-layer1,
+.videos-layer2 {
+    /* border: 2px solid red; */
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.videos img {
+    /* border: 2px solid red; */
+    /* width: 350px; */
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: .5rem;
+}
+
+.videos img:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: .5s;
+}
+
+.click-view-new {
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    color: white;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+.btn-bar {
+    /* border: 2px solid red; */
+    margin-top: 4rem;
+    text-align: center;
+}
+
+@media (max-width:850px) {
+    .section2-in {
+        width: 90%;
+    }
+}
+
+@media (max-width:400px) {
+    .section2-in h1 {
+        font-size: 1.5rem;
+    }
+}

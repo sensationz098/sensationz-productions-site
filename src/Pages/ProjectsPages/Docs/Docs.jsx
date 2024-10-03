@@ -1,5 +1,6 @@
 import React from "react";
 import "./Docs.css";
+import { Link } from "react-router-dom";
 import Nav from "../../../Components/ProjectComponents/ProjectsNav/Nav";
 import Hero from "../../../Components/ProjectComponents/Hero/Hero";
 
@@ -8,7 +9,6 @@ import banner from "../../../assets/project-banners/docs.png";
 import Section1 from "../../../Components/ProjectComponents/Section1/Section1";
 import img1 from "../../../assets/projects-img/img1.jpeg";
 import img2 from "../../../assets/projects-img/img2.jpeg";
-import Section2 from "../../../Components/ProjectComponents/Section2/Section2";
 
 import Img1 from "../../../assets/posters/movies/movie1.jpg";
 import Img2 from "../../../assets/posters/ShortFilms/5.png";
@@ -47,15 +47,6 @@ export default function Docs() {
               Banwarhlal Jhol, explores themes of belonging and identity. Each
               project reflects Sensationz Productions' commitment to
               storytelling that resonates on multiple levels.`}
-      />
-      <Section2
-        heading1={"Some of Our Best Movies & Shortfilms"}
-        Img1={Img1}
-        Img2={Img2}
-        Img3={Img3}
-        Img4={Img4}
-        Img5={Img5}
-        Img6={Img6}
       />
     </>
   );

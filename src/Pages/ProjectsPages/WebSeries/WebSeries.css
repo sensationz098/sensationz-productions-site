@@ -1,0 +1,29 @@
+.section2-webseries {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.section2-webseries .videos img {
+    /* border: 2px solid red; */
+    height: 15rem;
+    width: 32rem;
+}
+
+@media (max-width:600px) {
+    .section2-webseries .videos img {
+        /* border: 2px solid red; */
+        height: 9rem;
+        width: 22rem;
+    }
+}
+
+@media (max-width:400px) {
+    .section2-webseries .videos img {
+        /* border: 2px solid red; */
+        height: 7rem;
+        width: 16rem;
+    }
+}

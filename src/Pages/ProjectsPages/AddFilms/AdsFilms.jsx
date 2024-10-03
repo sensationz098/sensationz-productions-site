@@ -22,8 +22,8 @@ export default function Movies() {
       <Nav />
       <Hero bannerImage={banner} />
       <Section1
-        heading1={"Movies &  Short Films"}
-        heading2={"Movies &  Short Films"}
+        heading1={"Ads Films"}
+        heading2={"Ads Films"}
         img1={img1}
         img2={img2}
         p1={`Sensationz Productions is a dynamic creative agency specializing in high-impact advertisement films. With a keen eye for storytelling and innovative visuals, they craft compelling narratives that captivate audiences and elevate brands. Their talented team combines artistic vision with strategic marketing insights, ensuring each project resonates deeply and drives engagement. Whether for digital campaigns or traditional media, Sensationz Productions is dedicated to delivering standout content that makes a lasting impression.`}

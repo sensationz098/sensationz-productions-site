@@ -19,3 +19,11 @@
         width: 22rem;
     }
 }
+
+@media (max-width:400px) {
+    .section2-ads .videos img {
+        /* border: 2px solid red; */
+        height: 7rem;
+        width: 16rem;
+    }
+}

@@ -10,6 +10,7 @@ import Projects from "../../Components/Projects/Projects";
 import About from "../../Components/About/About";
 import VideoPlayer from "../../Components/VideoPlayer/VideoPlayer";
 import Directors from "../../Components/Directors/Directors";
+import Platforms from "../../Components/Platforms/Platforms";
 
 import BeatLoader from "react-spinners/BeatLoader";
 import RecentCreations from "../../Components/RecentCreations/RecentCreations";
@@ -77,9 +78,15 @@ export default function Home() {
           </div>
 
           <div className="container">
+            <Title title={"Platforms"} subtitle={"We are available on.."} />
+            <Platforms />
+          </div>
+
+          <div className="container">
             <Title title={"contact us"} subtitle={"get in touch"} />
             <Contact />
           </div>
+
           <VideoPlayer playState={playState} setPlayState={setPlayState} />
         </>
       )}

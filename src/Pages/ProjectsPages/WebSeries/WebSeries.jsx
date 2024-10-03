@@ -34,13 +34,15 @@ export default function WebSeries() {
           <div className="videos">
             <div className="videos-layer1">
               <Link
-                to={"https://www.youtube.com/watch?v=LBcOh1yIGGs"}
+                to={"https://www.imdb.com/title/tt32135791/"}
                 target="_blank"
               >
                 <img src={Img1} alt="" className="stiff-block" />
               </Link>
               <Link
-                to={"https://www.youtube.com/watch?v=XV_-qNSHy8c&t=71s"}
+                to={
+                  "https://www.youtube.com/playlist?list=PLkZUBLpxN32oiqB4CkGOXLslekI3HkYbc"
+                }
                 target="_blank"
               >
                 <img src={Img2} alt="" className="stiff-block" />

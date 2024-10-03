@@ -10,8 +10,8 @@ import Section1 from "../../../Components/ProjectComponents/Section1/Section1";
 import img1 from "../../../assets/projects-img/img1.jpeg";
 import img2 from "../../../assets/projects-img/img2.jpeg";
 
-import Img1 from "../../../assets/posters/ads/Makoons.png";
-import Img2 from "../../../assets/posters/ads/Marlin.png";
+import Img1 from "../../../assets/posters/WebSeries/web1.jpg";
+import Img2 from "../../../assets/posters/WebSeries/web2.jpg";
 
 export default function WebSeries() {
   return (

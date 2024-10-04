@@ -12,16 +12,16 @@ export default function Platforms() {
     <>
       <div className="platforms">
         <Link to={"https://www.mxplayer.in/"} target="_blank">
-          <img src={img1} alt="" />
+          <img src={img1} alt="" className="stiff-block" />
         </Link>
         <Link to={"https://www.hungama.com/"} target="_blank">
-          <img src={img2} alt="" />
+          <img src={img2} alt="" className="stiff-block" />
         </Link>
         <Link
           to={"https://www.youtube.com/@SensationzMediaArtsPvtLtd"}
           target="_blank"
         >
-          <img src={img3} alt="" />
+          <img src={img3} alt="" className="stiff-block" />
         </Link>
       </div>
     </>

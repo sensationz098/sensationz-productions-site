@@ -37,10 +37,10 @@ export default function ServicesNav() {
             <Link to={"/projects/documentaries"}>
               <li>Documentaries</li>
             </Link>
-            <Link to={"/projects/addfilms"}>
+            <Link to={"/projects/adsfilms"}>
               <li>Add Films</li>
             </Link>
-            <Link to={"/projects/Interviews-talkshows"}>
+            <Link to={"/projects/interviews-talkshows"}>
               <li>Interviews & Talk Shows</li>
             </Link>
             {/* <Link to={"/projects/youtube"}>

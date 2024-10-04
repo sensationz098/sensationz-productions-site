@@ -3,7 +3,8 @@
     min-height: 80vh;
     /* background: linear-gradient(var(--theme-color-highlight1), var(--theme-color-highlight2)), url("../../assets/imgAssets/hero.jpg"); */
     /* background: linear-gradient(var(--theme-color-highlight1), var(--theme-color-highlight2)), url("../../assets/projects-img/documentary.jpg"); */
-    background: linear-gradient(var(--theme-color-highlight1), var(--theme-color-highlight2)), url("../../assets/imgAssets/back.jpg");
+    /* background: linear-gradient(var(--theme-color-highlight1), var(--theme-color-highlight2)), url("../../assets/imgAssets/back.jpg"); */
+    background: linear-gradient(var(--theme-color-highlight1), var(--theme-color-highlight2)), url("../../assets/imgAssets/Landing.png");
     background-size: cover;
     background-position: center;
     color: #000000;

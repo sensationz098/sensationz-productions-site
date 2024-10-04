@@ -45,7 +45,7 @@ export default function Projects() {
         />
         <Project
           img={webSeries}
-          to={"/projects/WebSeries"}
+          to={"/projects/webseries"}
           caption={"Web Series"}
         />
         <Project
@@ -55,19 +55,19 @@ export default function Projects() {
         />
         <Project
           img={adsFilms}
-          to={"/projects/AdsFilms"}
+          to={"/projects/adsfilms"}
           caption={"Ads Films"}
         />
       </div>
       <div className="services">
         <Project
           img={talkShow}
-          to={"/projects/TalkShow"}
+          to={"/projects/interviews-talkshows"}
           caption={"Interviews & Talk Show"}
         />
         <Project
           img={youtube}
-          to={"/projects/MusicVideos"}
+          to={"/projects/musicVideos"}
           caption={"Music Videos"}
         />
         <Project img={more} to={"/projects/Explore"} caption={"Explore More"} />

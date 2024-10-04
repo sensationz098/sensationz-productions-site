@@ -50,7 +50,7 @@ export default function Movies() {
 
       <div className="section2-movies">
         <div className="section2-in stiff-block">
-          <h1>{"Some of Our Best Ads Films"}</h1>
+          <h1>{"Some of Our Best Movies"}</h1>
           <p className="click-view-new">(Hover & Click to view )</p>
 
           <div className="videos">

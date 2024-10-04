@@ -30,7 +30,7 @@ export default function App() {
             element={<Docs />}
           />
           <Route
-            path="/projects/addfilms"
+            path="/projects/adsfilms"
             exact={true}
             element={<AdsFilms />}
           />
@@ -40,7 +40,7 @@ export default function App() {
             element={<Movies />}
           />
           <Route
-            path="/projects/Interviews-talkshows"
+            path="/projects/interviews-talkshows"
             exact={true}
             element={<TalkShow />}
           />

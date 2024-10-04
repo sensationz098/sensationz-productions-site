@@ -25,8 +25,8 @@ export default function Hero() {
             <span className="last-line-color">sensationz</span> Productions
           </h1>
           <p>
-            Creating entertaining, Inspiring and Extraordinary stories <br />
-            from Sensationz for India.
+            Creating Entertaining, Inspiring and Extraordinary Stories <br />
+            From Sensationz For India.
           </p>
           <button className="btn">
             <Link to="services" smooth={true} offset={-210} durastion={500}>

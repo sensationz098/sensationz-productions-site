@@ -25,13 +25,14 @@ export default function About({ setPlayState }) {
             supported by Sucheta Anand(Film producer), multifaceted Production
             house creating and identifying experience in the world of media.
             Sensationz Productions got to work , picking strong scripts,
-            experimenting with new media; becoming a canvas that is not
+            experimenting with new media, becoming a canvas that is not
             restricted by language or medium. From ad film's to digital media,to
             backing regional cinema,and venturing into short films and web
             series, Sensationz Productions has made some rather brave,
             unconventional choices. All the digital media films of Sensationz
             productions are released on YouTube channel ' Sensationz Media and
-            Arts Pvt. Ltd. having 76k subscriber and 22.2M view
+            Arts Pvt. Ltd. having more than 76k subscriber and more than 22.2M
+            view on Youtube.
           </p>
         </div>
       </div>

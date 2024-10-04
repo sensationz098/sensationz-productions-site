@@ -11,7 +11,7 @@ export default function Directors() {
         <div className="title-color-box">
           <h1>Meet The Creators</h1>
           <p>
-            Who, with their creative minds have created this pool of
+            Who, with their creative minds have created the pool of
             entertainment!
           </p>
         </div>

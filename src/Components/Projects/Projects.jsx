@@ -63,15 +63,15 @@ export default function Projects() {
         <Project
           img={talkShow}
           to={"/projects/TalkShow"}
-          caption={"Talk Show"}
+          caption={"Interviews & Talk Show"}
         />
         <Project
           img={youtube}
-          to={"/projects/Youtube"}
-          caption={"youtube Videos"}
+          to={"/projects/MusicVideos"}
+          caption={"Music Videos"}
         />
         <Project img={more} to={"/projects/Explore"} caption={"Explore More"} />
-        <Project img={more} to={"/projects/Explore"} caption={"Explore More"} />
+        {/* <Project img={more} to={"/projects/Explore"} caption={"Explore More"} /> */}
       </div>
     </>
   );

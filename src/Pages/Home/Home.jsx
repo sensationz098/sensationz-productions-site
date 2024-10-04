@@ -46,10 +46,7 @@ export default function Home() {
           <Navbar />
           <Hero />
           <div className="container">
-            <Title
-              title={"our Projects"}
-              subtitle={"Know About Our Projects"}
-            />
+            <Title title={"our Projects"} subtitle={"What have we done Yet?"} />
             <p className="click-view">
               (Hover & Click to view
               <PiMouseLeftClickFill />)
@@ -59,7 +56,7 @@ export default function Home() {
           </div>
 
           <div className="container">
-            <Title title={"about Us"} subtitle={"know more about us"} />
+            <Title title={"about Us"} subtitle={"What Are We?"} />
             <About setPlayState={setPlayState} />
           </div>
 

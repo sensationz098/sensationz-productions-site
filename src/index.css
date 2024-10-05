@@ -5,8 +5,10 @@
     --theme-color-nav: rgb(0, 0, 0);
     --theme-color-bg: rgb(255, 0, 0);
     --theme-color-highlight: rgba(16, 5, 1, 0.73);
-    --theme-color-highlight1: rgba(0, 0, 0, 0.425);
-    --theme-color-highlight2: rgba(0, 0, 0, 0.507);
+    /* --theme-color-highlight1: rgba(0, 0, 0, 0.425);
+    --theme-color-highlight2: rgba(0, 0, 0, 0.507); */
+    --theme-color-highlight1: rgba(0, 0, 0, 0.671);
+    --theme-color-highlight2: rgba(0, 0, 0, 0.671);
     --theme-color-input: rgb(211, 211, 211);
 }
 

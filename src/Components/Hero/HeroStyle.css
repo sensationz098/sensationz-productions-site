@@ -1,10 +1,8 @@
 .hero {
     width: 100%;
     min-height: 100vh;
-    /* background: linear-gradient(var(--theme-color-highlight1), var(--theme-color-highlight2)), url("../../assets/imgAssets/hero.jpg"); */
-    /* background: linear-gradient(var(--theme-color-highlight1), var(--theme-color-highlight2)), url("../../assets/projects-img/documentary.jpg"); */
-    /* background: linear-gradient(var(--theme-color-highlight1), var(--theme-color-highlight2)), url("../../assets/imgAssets/back.jpg"); */
     background: linear-gradient(var(--theme-color-highlight1), var(--theme-color-highlight2)), url("../../assets/imgAssets/hero-art.png");
+    /* background: url("../../assets/imgAssets/hero-art.png"); */
     background-size: 1800px 100vh;
     /* background-repeat: no-repeat; */
     background-position: center;
@@ -24,6 +22,9 @@
     text-align: center;
     max-width: 800px;
     z-index: 2;
+    /* background-color: rgba(0, 0, 0, 0.671);
+    border-radius: 2rem;
+    padding: 2rem; */
 }
 
 .hero-text h1 {
@@ -31,7 +32,7 @@
     font-size: 4.7rem;
     font-weight: 600;
     color: #ffffff;
-    width: 100%;
+    width: auto;
     text-transform: capitalize;
     z-index: 2;
 }

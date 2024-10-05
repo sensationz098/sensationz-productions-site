@@ -19,8 +19,8 @@ export default function Hero() {
     <>
       <div className="hero container">
         <div className="hero-text hero-block">
-          <h1>welcome</h1>
-          <h3>to</h3>
+          <h1>Finding Creativity</h1>
+          <h3>with</h3>
           <h1 className="last-line">
             <span className="last-line-color">sensationz</span> Productions
           </h1>

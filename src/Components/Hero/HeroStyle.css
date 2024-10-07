@@ -1,6 +1,6 @@
 .hero {
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     background: linear-gradient(var(--theme-color-highlight1), var(--theme-color-highlight2)), url("../../assets/imgAssets/hero-art.png");
     /* background: url("../../assets/imgAssets/hero-art.png"); */
     background-size: 1800px 100vh;
@@ -275,6 +275,10 @@
 @media(max-width:560px) {
 
     /* -------------- */
+    .hero {
+        min-height: 100vh;
+    }
+
     .pictures {
         /* border: 2px solid black; */
         position: absolute;

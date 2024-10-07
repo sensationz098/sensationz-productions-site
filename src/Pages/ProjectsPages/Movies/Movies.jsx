@@ -43,7 +43,7 @@ export default function Movies() {
               delves into complex human emotions, while "Deserved: Story of a
               Cop," starring Manoj Bakshi, offers a gripping look at justice and
               morality. Additionally, "Ab Yahi Mera Ghar Hai," featuring
-              Banwarhlal Jhol, explores themes of belonging and identity. Each
+              Banwari Lal Jhol, explores themes of belonging and identity. Each
               project reflects Sensationz Productions' commitment to
               storytelling that resonates on multiple levels.`}
       />

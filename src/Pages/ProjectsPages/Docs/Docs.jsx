@@ -10,10 +10,10 @@ import Section1 from "../../../Components/ProjectComponents/Section1/Section1";
 import img1 from "../../../assets/projects-img/img1.jpeg";
 import img2 from "../../../assets/projects-img/docs.jpeg";
 
-import Img1 from "../../../assets/posters/docs/docs1.png";
-import Img2 from "../../../assets/posters/docs/docs2.png";
-import Img3 from "../../../assets/posters/docs/docs3.png";
-import Img4 from "../../../assets/posters/docs/docs4.png";
+import Img1 from "../../../assets/posters/docs/docs-1.png";
+import Img2 from "../../../assets/posters/docs/docs-2.png";
+import Img3 from "../../../assets/posters/docs/docs-3.png";
+import Img4 from "../../../assets/posters/docs/docs-4.png";
 
 export default function Docs() {
   return (
@@ -37,15 +37,13 @@ export default function Docs() {
           <div className="videos">
             <div className="videos-layer1">
               <Link
-                to={"https://www.imdb.com/title/tt32135791/"}
+                to={"https://www.youtube.com/watch?v=aocrxOzwrvY&t=5s"}
                 target="_blank"
               >
                 <img src={Img1} alt="" className="stiff-block" />
               </Link>
               <Link
-                to={
-                  "https://www.youtube.com/playlist?list=PLkZUBLpxN32oiqB4CkGOXLslekI3HkYbc"
-                }
+                to={"https://www.youtube.com/watch?v=3dJ3kc2kVk8"}
                 target="_blank"
               >
                 <img src={Img2} alt="" className="stiff-block" />
@@ -53,15 +51,13 @@ export default function Docs() {
             </div>
             <div className="videos-layer2">
               <Link
-                to={"https://www.imdb.com/title/tt32135791/"}
+                to={"https://www.youtube.com/watch?v=Mn9q771aegg"}
                 target="_blank"
               >
                 <img src={Img3} alt="" className="stiff-block" />
               </Link>
               <Link
-                to={
-                  "https://www.youtube.com/playlist?list=PLkZUBLpxN32oiqB4CkGOXLslekI3HkYbc"
-                }
+                to={"https://www.youtube.com/watch?v=ZV-reSzPJ6o&t=5s"}
                 target="_blank"
               >
                 <img src={Img4} alt="" className="stiff-block" />

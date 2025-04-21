@@ -55,7 +55,7 @@ iframe {
   .series-list {
     flex-direction: column;
     align-items: center;
-    margin: 15px;
+    justify-content: center;
   }
 
   .webseries-title {

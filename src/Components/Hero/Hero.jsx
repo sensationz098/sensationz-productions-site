@@ -8,11 +8,6 @@ import {
   animateScroll as scroll,
   scrollSpy,
 } from "react-scroll";
-import { FaArrowRightLong } from "react-icons/fa6";
-import { FaWhatsapp } from "react-icons/fa";
-
-import clapper from "../../assets/imgAssets/clapper.png";
-import reel from "../../assets/imgAssets/reel.png";
 
 export default function Hero() {
   return (
@@ -28,9 +23,9 @@ export default function Hero() {
             Creating Entertaining, Inspiring and Extraordinary Stories <br />
             From Sensationz For India.
           </p>
-          <button className="btn">
+          <button className="btn home-btn">
             <Link to="services" smooth={true} offset={-210} durastion={500}>
-              Explore Our Projects
+              Watch Now
             </Link>
           </button>
           {/* <div className="pictures">

@@ -19,14 +19,6 @@ export default function WebSeries() {
     <>
       <Nav />
       <Hero bannerImage={banner} />
-      <Section1
-        heading1={"Web Series"}
-        heading2={"Web Series"}
-        img1={img1}
-        img2={img2}
-        p1={`Sensationz Productions is a creative media company specializing in producing engaging web series. Known for its innovative storytelling and high-quality content, the company creates shows that captivate diverse audiences across genres, from drama and comedy to thrillers and documentaries. Sensationz Productions focuses on delivering fresh perspectives and relatable narratives, leveraging digital platforms to connect with viewers worldwide. With a strong emphasis on creative collaboration and cutting-edge production techniques, it continues to push the boundaries of web series entertainment.`}
-        p2={`Sensationz Productions is a dynamic content creation company known for producing popular web series like *Pre-Wedding Honeymoon* on MX Player and *Love Lust Loyalty (LLL)*. With a focus on modern relationships, emotions, and relatable experiences, Sensationz Productions creates compelling narratives that resonate with a wide audience. Their web series often explore themes of love, desire, and trust, offering viewers an engaging mix of drama, romance, and realism. By leveraging digital platforms like MX Player, the company reaches diverse viewers and continues to establish itself as a key player in the web series space.`}
-      />
 
       <div className="section2-webseries">
         <div className="section2-in stiff-block">
@@ -87,6 +79,16 @@ export default function WebSeries() {
           {/* </div> */}
         </div>
       </div>
+
+      <Section1
+        heading1={"Web Series"}
+        heading2={"Web Series"}
+        img1={img1}
+        img2={img2}
+        p1={`Sensationz Productions is a creative media company specializing in producing engaging web series. Known for its innovative storytelling and high-quality content, the company creates shows that captivate diverse audiences across genres, from drama and comedy to thrillers and documentaries. Sensationz Productions focuses on delivering fresh perspectives and relatable narratives, leveraging digital platforms to connect with viewers worldwide. With a strong emphasis on creative collaboration and cutting-edge production techniques, it continues to push the boundaries of web series entertainment.`}
+        p2={`Sensationz Productions is a dynamic content creation company known for producing popular web series like *Pre-Wedding Honeymoon* on MX Player and *Love Lust Loyalty (LLL)*. With a focus on modern relationships, emotions, and relatable experiences, Sensationz Productions creates compelling narratives that resonate with a wide audience. Their web series often explore themes of love, desire, and trust, offering viewers an engaging mix of drama, romance, and realism. By leveraging digital platforms like MX Player, the company reaches diverse viewers and continues to establish itself as a key player in the web series space.`}
+      />
+
       <div className="section2-webseries">
         <div className="section2-in stiff-block">
           <h1>{"Some of Our Best Web Series"}</h1>

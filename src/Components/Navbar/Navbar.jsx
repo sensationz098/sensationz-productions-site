@@ -84,6 +84,18 @@ export default function Navbar() {
               Contact Us
             </Link>{" "}
           </li>
+
+          <li className="latest-collection">
+            <Link
+              to="contact"
+              smooth={true}
+              offset={-250}
+              durastion={500}
+              className="btn"
+            >
+              Latest Collections
+            </Link>{" "}
+          </li>
         </ul>
       </nav>
     </>

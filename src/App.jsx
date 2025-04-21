@@ -12,6 +12,7 @@ import Youtube from "./Pages/ProjectsPages/Youtube/Youtube";
 import MusicVideos from "./Pages/ProjectsPages/MusicVideos/MusicVideos";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { CollectionWebPage } from "./Pages/CollectionWebPage/CollectionWebPage";
 
 export default function App() {
   return (
@@ -55,6 +56,12 @@ export default function App() {
             path="/projects/PrivacyPolicy"
             exact={true}
             element={<Policy />}
+          />
+
+          <Route
+            path="/CollectionWebPage/CollectionWebPage"
+            exact={true}
+            element={<CollectionWebPage />}
           />
         </Routes>
         <div className="container">

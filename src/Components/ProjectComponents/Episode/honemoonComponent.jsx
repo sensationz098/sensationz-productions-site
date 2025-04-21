@@ -12,10 +12,10 @@ const HonemoonComponent = ({ title, iframeSRC, link }) => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
-      ></iframe>
+      />{" "}
       <h4>{title}</h4>
       <a href={link} target="_blank" rel="noopener noreferrer">
-        <button className="btn dark-btn stiff-blocks">See More</button>
+        <button className="btn dark-btn stiff-blocks">Watch Now</button>
       </a>
     </div>
   );

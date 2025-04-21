@@ -7,14 +7,31 @@
   margin: 2rem 0 6rem 0;
 }
 
+.inner-series-list {
+  display: flex;
+  gap: 10px;
+}
+.previous-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.previous-container h3 {
+  margin-top: 20px;
+  font-size: 25px;
+  color: azure;
+}
 iframe {
   border-radius: 30px;
 }
+
 .series-list {
-  margin: 30px 30px;
+  margin: 20px 0 30px 0;
   display: flex;
-  gap: 10px;
+  flex-wrap: wrap; /* allow wrapping */
+
   justify-content: space-between;
+  gap: 20px;
 }
 .webseries-title {
   display: flex;

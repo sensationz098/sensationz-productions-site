@@ -61,24 +61,28 @@ export default function WebSeries() {
           </div>
 
           {/* <div className="btn-bar"> */}
-          <div className="series-list">
-            <HonemoonComponent
-              title="Pre Wedding Honeymoon | EP-1 "
-              link="https://youtu.be/THo-4pYuWvI?si=bQUQXspRV9OXAbv4"
-              iframeSRC="https://www.youtube.com/embed/THo-4pYuWvI?si=bQUQXspRV9OXAbv4"
-            />
 
-            <HonemoonComponent
-              title="Pre Wedding Honeymoon | EP-2 "
-              link="https://www.youtube.com/embed/M4GVFVWFuhE?si=enOS4e9pNHQRE18s"
-              iframeSRC="https://www.youtube.com/embed/M4GVFVWFuhE?si=enOS4e9pNHQRE18s"
-            />
+          <div className="previous-container">
+            <h3>Previous Episodes</h3>
+            <div className="series-list">
+              <HonemoonComponent
+                title="Pre Wedding Honeymoon | EP-1 "
+                link="https://youtu.be/THo-4pYuWvI?si=bQUQXspRV9OXAbv4"
+                iframeSRC="https://www.youtube.com/embed/THo-4pYuWvI?si=bQUQXspRV9OXAbv4"
+              />
 
-            <HonemoonComponent
-              title="Pre Wedding Honeymoon | EP-3 "
-              link="https://www.youtube.com/embed/d7iO8jbMpqk?si=mzM6RN9myv-QazdJ"
-              iframeSRC="https://www.youtube.com/embed/d7iO8jbMpqk?si=mzM6RN9myv-QazdJ"
-            />
+              <HonemoonComponent
+                title="Pre Wedding Honeymoon | EP-2 "
+                link="https://www.youtube.com/embed/M4GVFVWFuhE?si=enOS4e9pNHQRE18s"
+                iframeSRC="https://www.youtube.com/embed/M4GVFVWFuhE?si=enOS4e9pNHQRE18s"
+              />
+
+              <HonemoonComponent
+                title="Pre Wedding Honeymoon | EP-3 "
+                link="https://www.youtube.com/embed/d7iO8jbMpqk?si=mzM6RN9myv-QazdJ"
+                iframeSRC="https://www.youtube.com/embed/d7iO8jbMpqk?si=mzM6RN9myv-QazdJ"
+              />
+            </div>
           </div>
           {/* </div> */}
         </div>

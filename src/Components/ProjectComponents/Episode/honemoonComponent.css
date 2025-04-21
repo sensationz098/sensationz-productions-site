@@ -1,5 +1,6 @@
 .honemoonComp {
   display: flex;
+  /* flex: 1 1 1000px; */
   flex-direction: column;
   align-items: center;
   padding: 20px;

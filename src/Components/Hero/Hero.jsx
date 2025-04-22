@@ -1,13 +1,13 @@
 import React from "react";
 import "./HeroStyle.css";
 import {
-  Link,
   Button,
   Element,
   Events,
   animateScroll as scroll,
   scrollSpy,
 } from "react-scroll";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -23,11 +23,14 @@ export default function Hero() {
             Creating Entertaining, Inspiring and Extraordinary Stories <br />
             From Sensationz For India.
           </p>
-          <button className="btn home-btn">
-            <Link to="services" smooth={true} offset={-210} durastion={500}>
-              Watch Now
-            </Link>
-          </button>
+          <Link
+            to="/projects/webseries"
+            smooth={true}
+            offset={-210}
+            durastion={500}
+          >
+            <button className="btn home-btn">Watch Now</button>
+          </Link>
           {/* <div className="pictures">
             <img src={clapper} alt="" className="hero-img img-l" />
             <img src={reel} alt="" className="hero-img img-r" />
